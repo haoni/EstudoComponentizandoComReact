@@ -4,7 +4,8 @@ class MeuComponenteControlado extends React.Component {
     constructor(props) {
         super(props)
 
-        this.state = { value: this.props.value }
+        //this.state = { value: this.props.value }
+        this.state = { value: '' }
         
         // Aqui faremos o bind do nosso método onChangeHandler ao this.
         // No javascript o this é dinâmico, ele nem sempre representar a contexto de quem o contém, 
